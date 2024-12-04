@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.ul {
+    list-style-type: none;
+    padding: 0;
+    width: 300px;
+}
+
+.li {
+    border: 1px solid slategray;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid slategray;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
