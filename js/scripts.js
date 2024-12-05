@@ -10,6 +10,7 @@ submit.addEventListener("click", function (e) {
     htmlElement.innerText = taskInput
     tasks.appendChild(htmlElement)
     alert(`new task ${taskInput} successfully added`)
+    input.value = ""
 })
 
 reset.addEventListener("click", function (e){
